@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25e7ff5b3ce840cd941cc265f0dfce0, type: 3}
+  m_Name: Elemental-Attack-Gem
+  m_EditorClassIdentifier: 
+  m_ID:
+    m_SerializedID:
+      m_String: Elemental-Attack-Gem
+  m_Parent: {fileID: 11400000, guid: 69918aff2743549449466510bc892c84, type: 2}
+  m_Prefab: {fileID: 0}
+  m_CanDrop:
+    m_IsEnabled: 1
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  m_Info:
+    m_Name:
+      m_Property:
+        rid: 0
+    m_Description:
+      m_Property:
+        rid: 1
+    m_Sprite:
+      m_Property:
+        rid: 2
+    m_Color:
+      m_Property:
+        rid: 3
+    m_OnCreate:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
+  m_Shape:
+    m_Width: 1
+    m_Height: 1
+    m_Weight: 1
+    m_MaxStack: 1
+  m_Price:
+    m_Currency: {fileID: 11400000, guid: 288c33ce79af2c644a1c5be78157d592, type: 2}
+    m_Value: 0
+    m_CanBuyFromMerchant: 1
+    m_CanSellToMerchant: 1
+  m_Properties:
+    m_InheritFromParent: 0
+    m_List:
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: attack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: c919faba7d9254698bcec5730c0997d1, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 4
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: defense
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 5
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: magicattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545373
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: magicdefense
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545374
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: fireattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545453
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: fireresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545454
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: iceattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545455
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: iceresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545456
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: windattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545457
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: windresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545458
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: earthattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545459
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: earthresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545460
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: lightningattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545461
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: lightningresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545462
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: darkattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545463
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: darkresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545464
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: lightresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545465
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: lightresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545466
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: poisonattack
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545467
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: poisonresistance
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 804059855666545468
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: luck
+      m_Visible: 1
+      m_Hide: 0
+      m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
+      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 7119901163047616873
+    m_Overrides:
+      m_Keys: []
+      m_Values: []
+  m_Sockets:
+    m_InheritFromParent: 1
+    m_List: []
+    m_PrefabSocket: {fileID: 0}
+  m_Equip:
+    m_IsEquippable: 0
+    m_Prefab: {fileID: 0}
+    m_ConditionsEquip:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnEquip:
+      m_Instructions:
+        m_Instructions: []
+    m_InstructionsOnUnequip:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
+  m_Usage:
+    m_CanUse: 0
+    m_ConsumeWhenUse: 1
+    m_Cooldown:
+      m_Property:
+        rid: 5243232332185076136
+    m_ConditionsCanUse:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnUse:
+      m_Instructions:
+        m_Instructions: []
+    m_ExecuteFromParent: 0
+  m_Crafting:
+    m_Ingredients: []
+    m_CanCraft: 0
+    m_ConditionsCraft:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnCraft:
+      m_Instructions:
+        m_Instructions: []
+    m_CanDismantle: 0
+    m_ConditionsDismantle:
+      m_Conditions:
+        m_Conditions: []
+    m_InstructionsOnDismantle:
+      m_Instructions:
+        m_Instructions: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Elemental-Attack-Gem
+    - rid: 1
+      type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Text:
+          m_Text: Gems that can be attached to improve elemental attack power
+    - rid: 2
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: 090d306847178494ba53fb33ad0a371d, type: 3}
+    - rid: 3
+      type: {class: GetColorValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {r: 0.61670184, g: 0.2396226, b: 1, a: 1}
+    - rid: 4
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Attack
+    - rid: 5
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Defense
+    - rid: 804059855666545373
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545374
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545453
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545454
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545455
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545456
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545457
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545458
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545459
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545460
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545461
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545462
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545463
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545464
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545465
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545466
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545467
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 804059855666545468
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 5243232332185076136
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 7119901163047616873
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4281c158154de98f11bf4a7c725adb, type: 3}
+  m_Name: My-Currency
+  m_EditorClassIdentifier: 
+  m_Coins:
+    m_List:
+    - rid: 2531411307151229196
+  m_UniqueID:
+    m_SerializedID:
+      m_String: currency-gold
+  references:
+    version: 2
+    RefIds:
+    - rid: 2531411307151229196
+      type: {class: Coin, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 1
+        m_Name:
+          m_Property:
+            rid: 2531411307151229199
+        m_Icon:
+          m_Property:
+            rid: 2531411307151229200
+        m_Tint:
+          m_Property:
+            rid: 2531411307151229201
+    - rid: 2531411307151229199
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Gold
+    - rid: 2531411307151229200
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: a8ee42d55893f437eacfd556ee6131c2, type: 3}
+    - rid: 2531411307151229201
+      type: {class: GetColorValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}

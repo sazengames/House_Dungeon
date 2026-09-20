@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4be981628d4fcd80364b5052329739, type: 3}
+  m_Name: Ice_Resistance
+  m_EditorClassIdentifier: 
+  m_ID:
+    m_String: ice_resistance
+  m_Data:
+    m_Base: 0
+    m_Formula: {fileID: 0}
+  m_Info:
+    m_Name:
+      m_Property:
+        rid: 804059855666545288
+    m_Acronym:
+      m_Property:
+        rid: 804059855666545289
+    m_Description:
+      m_Property:
+        rid: 804059855666545290
+    m_Icon:
+      m_Property:
+        rid: 804059855666545292
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 804059855666545288
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Ice Resistance
+    - rid: 804059855666545289
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: IRES
+    - rid: 804059855666545290
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: How strong your resistance to ice attacks is
+    - rid: 804059855666545292
+      type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Sprite: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
