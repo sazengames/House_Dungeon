@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: GameCreator.Runtime.Core::GameCreator.Runtime.Variables.GlobalNameVariables
   m_SaveUniqueID:
     m_Save:
-      m_Save: 0
+      m_Save: 1
     m_UniqueID:
       m_SerializedID:
         m_String: 7b53a15c-92ae-4a8e-9068-96a572b75a91
@@ -30,6 +30,8 @@ MonoBehaviour:
         - rid: 67213438347903058
         - rid: 67213438347903060
         - rid: 67213438347903065
+        - rid: 2342229219199681160
+        - rid: 2342229219199681312
     - rid: 67213438347903058
       type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
@@ -71,6 +73,36 @@ MonoBehaviour:
           m_String: lock-on
     - rid: 67213438347903066
       type: {class: ValueBool, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 2342229219199681160
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 2342229219199681162
+        m_Name:
+          m_String: last-runtime-drop
+    - rid: 2342229219199681162
+      type: {class: ValueRuntimeItem, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {fileID: 0}
+    - rid: 2342229219199681312
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 2342229219199681314
+        m_Name:
+          m_String: test-dura
+    - rid: 2342229219199681314
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1

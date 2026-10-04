@@ -776,6 +776,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6850921225140801634, guid: 567769a2d701d4dff8350f9c2b29b663, type: 3}
   m_PrefabInstance: {fileID: 65702152}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &82212394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 701975392359021851, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &84111844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1182,6 +1187,245 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6850921225140801634, guid: 567769a2d701d4dff8350f9c2b29b663, type: 3}
   m_PrefabInstance: {fileID: 95645033}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &95941476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95941478}
+  - component: {fileID: 95941480}
+  - component: {fileID: 95941479}
+  m_Layer: 0
+  m_Name: test_mouse_pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &95941478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95941476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &95941479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95941476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2b16044a04efba6795e323236dc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GameCreator.Runtime.Core::GameCreator.Runtime.Variables.LocalNameVariables
+  m_SaveUniqueID:
+    m_Save:
+      m_Save: 0
+    m_UniqueID:
+      m_SerializedID:
+        m_String: d0a2eb3e-3b86-47f9-8ec6-abb6ffb9f6b3
+  m_Runtime:
+    rid: 2342229194300719395
+  references:
+    version: 2
+    RefIds:
+    - rid: 2342229194300719395
+      type: {class: NameVariableRuntime, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_List:
+          rid: 2342229194300719396
+    - rid: 2342229194300719396
+      type: {class: NameList, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Source:
+        - rid: 2342229194300719397
+        - rid: 2342229194300719600
+    - rid: 2342229194300719397
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 2342229194300719399
+        m_Name:
+          m_String: dis
+    - rid: 2342229194300719399
+      type: {class: ValueNumber, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: 0
+    - rid: 2342229194300719600
+      type: {class: NameVariable, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value:
+          rid: 2342229194300719602
+        m_Name:
+          m_String: m-pos
+    - rid: 2342229194300719602
+      type: {class: ValueVector3, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Value: {x: 0, y: 0, z: 0}
+--- !u!114 &95941480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95941476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecd922218e245e2b85d51f9f08338c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GameCreator.Runtime.Core::GameCreator.Runtime.VisualScripting.Trigger
+  m_Instructions:
+    m_Instructions:
+    - rid: 2342229194300719595
+    - rid: 2342229194300719391
+    - rid: 2342229194300719407
+  m_TriggerEvent:
+    rid: 2342229194300719390
+  references:
+    version: 2
+    RefIds:
+    - rid: 2342229194300719390
+      type: {class: EventOnFixedUpdate, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229194300719391
+      type: {class: InstructionGeometryDistance, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 2342229194300719400
+        m_Point1:
+          m_Property:
+            rid: 2342229194300719403
+        m_Point2:
+          m_Property:
+            rid: 2342229194300719603
+    - rid: 2342229194300719400
+      type: {class: SetNumberLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable:
+            rid: 2342229194300719401
+          m_Name:
+            m_String: dis
+            m_ID: -844346746
+    - rid: 2342229194300719401
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229194300719402
+    - rid: 2342229194300719402
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 95941476}
+    - rid: 2342229194300719403
+      type: {class: GetPositionCharactersPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229194300719407
+      type: {class: InstructionCommonDebugNumber, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Prefix: Number
+        m_Message:
+          m_Property:
+            rid: 2342229194300719409
+    - rid: 2342229194300719409
+      type: {class: GetDecimalLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: number
+          m_Variable:
+            rid: 2342229194300719410
+          m_Name:
+            m_String: dis
+            m_ID: -844346746
+    - rid: 2342229194300719410
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229194300719411
+    - rid: 2342229194300719411
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 95941476}
+    - rid: 2342229194300719595
+      type: {class: InstructionWorldMousePosition, ns: , asm: Assembly-CSharp-firstpass}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_layerMask:
+          serializedVersion: 2
+          m_Bits: 64
+        m_Set:
+          m_Property:
+            rid: 2342229194300719597
+    - rid: 2342229194300719597
+      type: {class: SetVector3LocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: vector3
+          m_Variable:
+            rid: 2342229194300719598
+          m_Name:
+            m_String: m-pos
+            m_ID: -1975513924
+    - rid: 2342229194300719598
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229194300719599
+    - rid: 2342229194300719599
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 95941476}
+    - rid: 2342229194300719603
+      type: {class: GetPositionLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: vector3
+          m_Variable:
+            rid: 2342229194300719604
+          m_Name:
+            m_String: m-pos
+            m_ID: -1975513924
+    - rid: 2342229194300719604
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229194300719605
+    - rid: 2342229194300719605
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 95941476}
 --- !u!1001 &100466253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2695,7 +2939,7 @@ MonoBehaviour:
             m_Value: 0
           m_FieldOfView:
             m_IsEnabled: 1
-            m_Value: 20
+            m_Value: 40
           m_OrthographicSize:
             m_IsEnabled: 0
             m_Value: 5
@@ -2732,7 +2976,7 @@ MonoBehaviour:
     - rid: 67213433831162733
       type: {class: GetDirectionVector, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Direction: {x: 24, y: 24, z: -24}
+        m_Direction: {x: 0, y: 18, z: -18}
 --- !u!4 &256346581
 Transform:
   m_ObjectHideFlags: 0
@@ -2909,6 +3153,10 @@ PrefabInstance:
       value: Floor_5x5
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3009,6 +3257,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3565,6 +3817,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6850921225140801634, guid: 567769a2d701d4dff8350f9c2b29b663, type: 3}
   m_PrefabInstance: {fileID: 356597094}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &362440678 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4473094294877407802, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &364323660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3638,6 +3895,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4154,6 +4415,10 @@ PrefabInstance:
       value: Floor_5x5
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4211,6 +4476,550 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4193679455884261387, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
   m_PrefabInstance: {fileID: 468656104}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &486542869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083755908996549263, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &486542870 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5954244939645045327, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &486542874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486542869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3505aa6d98bd4418e0744d5ab56fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FIMSpace.FProceduralAnimation.LegsAnimator
+  Mecanim: {fileID: 486542870}
+  GroundedParameter: 
+  MovingParameter: 
+  User_IsMovingMecanim_NotMovingFloat_Threshold: 0.1
+  Rigidbody: {fileID: 0}
+  UseRigidbodyVelocityForIsMoving: 0
+  UseRaycastsForIsGrounded: 0
+  SlidingParameter: 
+  SpineBone: {fileID: 362440678}
+  ChestBone: {fileID: 0}
+  RagdolledParameter: 
+  SwingHelper: 0.005
+  GluingFloorLevel: 0.05
+  GluingFloorLevelUseOnMoving: 0
+  GluingFloorLevelOnMoving: 0
+  StepPointsOverlapRadius: 0
+  UseStepPointsOverlapRadiusOnMoving: 0
+  StepPointsOverlapRadiusOnMoving: 0
+  MotionInfluence:
+    AdvancedInfluence: 0
+    AxisMotionInfluence: {x: 0, y: 1, z: 1}
+    AxisMotionInfluenceBackwards: {x: 1, y: 1, z: 1}
+  Event_OnStep:
+    m_PersistentCalls:
+      m_Calls: []
+  EventExecuteSooner: 0.05
+  SendOnMovingGlue: 0
+  SendOnStopping: 0
+  StepEventOnLanding: 0
+  StepInfoReceiver: {fileID: 0}
+  ExtraPelvisOffset: {x: 0, y: 0, z: 0}
+  ReposeGluingAfter: 0
+  GlueOnlyOnIdle: 0
+  LocalWorldUp: 1
+  DisableCustomModules: 0
+  CustomModules:
+  - Enabled: 1
+    Parent: {fileID: 486542874}
+    ModuleReference: {fileID: 11400000, guid: 7d9bd86d54a7a594cb1793f9533e2e00, type: 2}
+    customStringList: []
+    customObjectList: []
+    variables:
+    - VariableName: Rotation Power
+      Tooltip: 
+      _value: {x: 0.4, y: 0, z: 0, w: 0}
+      _string: 
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _uObject: {fileID: 0}
+      VariableType: 0
+      _rangeHelper: {x: 0, y: 0, z: 0, w: 0}
+  ImpulsesPowerMultiplier: 1
+  ImpulsesDurationMultiplier: 1
+  ImpulsesDampUpPushes: 0
+  DebugPushHipsImpulse:
+    OptionalName: Impulse
+    PowerMultiplier: 1
+    ImpulseDuration: 0.6
+    WorldTranslation: {x: 0, y: 0, z: 0}
+    LocalTranslation: {x: 0, y: -1, z: 0}
+    HipsRotate: {x: 0, y: 0, z: 0}
+    InheritElasticness: 0.75
+    ImpulseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 3.4375
+        outSlope: 3.4375
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    YAxisMultiplyCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AlignWithDesiredMoveDirection: 0
+  ExtraHipsHubs: []
+  HipsHubsHandling: 1
+  HipsHubsBlend: 1
+  HubsBackBonesBlend:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HubBackBonesElasticity: 0.1
+  HipsSetup:
+    HipsElasticityBlend: 1
+    HipsMuscle:
+      DesiredPosition: {x: 0, y: 0, z: 0}
+      Acceleration: 10000
+      AccelerationLimit: 5000
+      Damping: 10
+      BrakePower: 0.2
+    HipsRotElasticityBlend: 0
+    HipsRotMuscle:
+      DesiredRotation: {x: 0, y: 0, z: 0, w: 0}
+      Acceleration: 5000
+      AccelerationLimit: 1000
+      Damping: 10
+      BrakePower: 0.2
+  StabilityAlgorithm: 1
+  UseHips: 1
+  HipsHeightStepBlend: 1
+  HipsHeightStepSpeed: 0.7
+  HipsAdjustStyle: 0
+  StabilizeCenterOfMass: 0.45
+  AnimationIsStablePose: 0.75
+  StabilizingSpeed: 0.375
+  PushHipsOnLegMove: 0.1
+  NormalizePush: 0
+  PushReactionSpeed: 0.3
+  PushYBlend: 1
+  HipsStretchPreventer: 0.15
+  StretchPreventerSpeed: 0.8
+  StabilizeOnIsMoving: 0.5
+  _Hips_Modules_ExtraWOffset: {x: 0, y: 0, z: 0}
+  _Hips_Modules_ExtraRotOffset: {x: 0, y: 0, z: 0}
+  _Hips_Modules_ExtraWOffsetElastic: {x: 0, y: 0, z: 0}
+  _Hips_Modules_ExtraWOffsetSmoothDamp: {x: 0, y: 0, z: 0}
+  _HipsOffsetSmoothDampDuration: 0.08
+  Legs:
+  - G_CustomForceAttach: 0
+    G_CustomForceNOTDetach: 0
+    G_CustomForceDetach: 0
+    G_CustomForceNOTAttach: 0
+    _FinalIKPos: {x: 0, y: 0, z: 0}
+    Owner: {fileID: 486542874}
+    LegBlendWeight: 1
+    LegMoveSpeedMultiplier: 1
+    LegRaiseMultiplier: 1
+    GlueThresholdMultiplier: 1
+    GluePointOffset: {x: 0, y: 0}
+    LegStretchMultiplier: 1
+    CustomLegAnimating: {fileID: 0}
+    FootPitchOffset: 0
+    BoneStart: {fileID: 1729458814}
+    BoneMid: {fileID: 1504159987}
+    BoneEnd: {fileID: 1394581039}
+    Side: 1
+    OppositeLegIndex: 1
+    RaycastPrecision: 0
+    UseFeet: 0
+    BoneFeet: {fileID: 0}
+    FeetSensitivity: 0.5
+    InverseHint: 0
+    AnkleToHeel: {x: -0.00000015925615, y: -0.08224226, z: 0.04688095}
+    AnkleToFeetEnd: {x: 0.0036197822, y: -0.045143943, z: 0.11196198}
+    AnkleRight: {x: 0.9988347, y: -0.02390194, z: -0.041927665}
+    AnkleUp: {x: 0.0000015422702, y: 0.86876494, z: -0.49522495}
+    AnkleForward: {x: 0.04826212, y: 0.49464774, z: 0.86775255}
+    FootMiddlePosition: 0.5
+    AnkleYawCorrection: 0
+  - G_CustomForceAttach: 0
+    G_CustomForceNOTDetach: 0
+    G_CustomForceDetach: 0
+    G_CustomForceNOTAttach: 0
+    _FinalIKPos: {x: 0, y: 0, z: 0}
+    Owner: {fileID: 486542874}
+    LegBlendWeight: 1
+    LegMoveSpeedMultiplier: 1
+    LegRaiseMultiplier: 1
+    GlueThresholdMultiplier: 1
+    GluePointOffset: {x: 0, y: 0}
+    LegStretchMultiplier: 1
+    CustomLegAnimating: {fileID: 0}
+    FootPitchOffset: 0
+    BoneStart: {fileID: 82212394}
+    BoneMid: {fileID: 565802927}
+    BoneEnd: {fileID: 2002114856}
+    Side: 2
+    OppositeLegIndex: 0
+    RaycastPrecision: 0
+    UseFeet: 0
+    BoneFeet: {fileID: 0}
+    FeetSensitivity: 0.5
+    InverseHint: 0
+    AnkleToHeel: {x: 0.00000015180558, y: -0.08224228, z: 0.046880923}
+    AnkleToFeetEnd: {x: -0.0036197975, y: -0.045143973, z: 0.11196196}
+    AnkleRight: {x: 0.9988347, y: 0.023901701, z: 0.041927636}
+    AnkleUp: {x: -0.000001385808, y: 0.86876506, z: -0.49522465}
+    AnkleForward: {x: -0.04826188, y: 0.49464756, z: 0.8677527}
+    FootMiddlePosition: 0.5
+    AnkleYawCorrection: 0
+  BaseLegAnimating:
+    StepMoveDuration: 0.35
+    MoveToGoalCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.1842105
+      - serializedVersion: 3
+        time: 0.4885197
+        value: 0.8972011
+        inSlope: 1.38764
+        outSlope: 1.38764
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpherizeTrack:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.25
+        outSlope: 1.25
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.4
+        value: 0.5
+        inSlope: 1.25
+        outSlope: 1.25
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.85
+        value: 0
+        inSlope: -1.111111
+        outSlope: -1.111111
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    SpherizePower: 0.4
+    MinFootRaise: 0.1
+    MaxFootRaise: 0.4
+    RaiseYAxisCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.8504464
+        outSlope: 0.8504464
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.6517575
+      - serializedVersion: 3
+        time: 0.2731183
+        value: 0.45
+        inSlope: 0.9770691
+        outSlope: 0.9770691
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3333333
+        outWeight: 0.3387407
+      - serializedVersion: 3
+        time: 0.505118
+        value: 0.5
+        inSlope: -0.2710344
+        outSlope: -0.2710344
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9110107
+        value: 0
+        inSlope: -0.1500788
+        outSlope: -0.1500788
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.5409704
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AllowSpeedups: 0.4
+    AllowDetachBefore: 1
+    PushHipsOnMoveCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.630541
+        outSlope: 5.630541
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.198735
+      - serializedVersion: 3
+        time: 0.383
+        value: 0.3733972
+        inSlope: -0.1664574
+        outSlope: -0.1664574
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.333
+        outWeight: 0.2940554
+      - serializedVersion: 3
+        time: 0.7075226
+        value: 0.1460427
+        inSlope: -1.565806
+        outSlope: -1.565806
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3605607
+        outWeight: 0.3446763
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.09374858
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    FootRotationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.5764588
+        outSlope: 0.5764588
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.4956417
+      - serializedVersion: 3
+        time: 0.4378169
+        value: 0.2035736
+        inSlope: -0.2411275
+        outSlope: -0.2411275
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3333333
+        outWeight: 0.4033037
+      - serializedVersion: 3
+        time: 0.7841034
+        value: -0.1339308
+        inSlope: 0.3331003
+        outSlope: 0.3331003
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0.3498169
+        outSlope: 0.3498169
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.5534658
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    DoStepAnimationOnDistanceFactor: 0.055
+  UseGluing: 1
+  MainGlueBlend: 1
+  GlueRangeThreshold: 0.5
+  GlueFadeInSpeed: 0.85
+  AllowGlueBelowFoot: 0.2
+  GlueFadeOutSpeed: 0.5
+  UnglueOn: 30
+  AllowGlueDrag: 0.6
+  GlueMode: 2
+  OnlyLocalAnimation: 0
+  SmoothSuddenSteps: 0.5
+  LegElevateBlend: 0.6
+  LegElevateHeightLimit: 0.6
+  FootRotationBlend: 1
+  FootAlignRapidity: 0.75
+  AnimateFeet: 1
+  LimitFeetYaw: 30
+  AnimationFloorLevel: 0.001
+  _Editor_Foldout_Setup_LegsList: 1
+  _Editor_EnsureCount: 0
+  _Editor_OnValidateTrigger: 1
+  _EditorAllowAutoUpdateFeetParams: 1
+  _EditorCategory: 0
+  _EditorSetupCategory: 0
+  _EditorMotionCategory: 3
+  _EditorExtraCategory: 0
+  setupPose:
+    MainHipsPose:
+      SourceTransform: {fileID: 0}
+      RotationInRoot: {x: 0, y: 0, z: 0, w: 0}
+      PositionInRoot: {x: 0, y: 0, z: 0}
+    HipsPoses: []
+    LegPoses: []
+  ExtraSetupPoses: []
+  IKHintMode: 0
+  LimitLegStretch: 0.99
+  FeetYOffset: 0
+  FeetLengthAdjust: 0
+  baseTransform: {fileID: 0}
+  Hips: {fileID: 2074059999}
+  ScaleReferenceMode: 3
+  finalScaleReference: 0.6267793
+  finalScaleReferenceSqrt: 0.1
+  customScaleReferenceValue: 0.5
+  DelayedInitialization: 0
+  Calibrate: 1
+  AnimatePhysics: 0
+  UnscaledDeltaTime: 0
+  DisableIfInvisible: {fileID: 0}
+  DisableIfInvisibleExtraRenderers: []
+  FadeOffAtDistance: 0
+  GroundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  RaycastHitTrigger: 1
+  CastDistance: 1
+  RaycastStartHeight: 0
+  RaycastStartHeightMul: 1
+  RaycastStyle: 0
+  RaycastShape: 0
+  SpherecastRealign: 0
+  SpherecastResize: 1
+  NoRaycastGroundBehaviour: 0
+  ZeroStepsOnNoRaycast: 0
+  NoRaycast_KeepAttachedUntilStretch: 1.1
+  BodyStepDown: 0.5
+  MaxBodyStepUp: 0
+  UngroundFadeSpeed: 0.1
+  IsMovingFadeSpeed: 0.4
+  LegsAnimatorBlend: 1
+  _Editor_DefaultModuleOnStart: {fileID: 11400000, guid: 7d9bd86d54a7a594cb1793f9533e2e00, type: 2}
+  _Editor_LegHelperModule: {fileID: 11400000, guid: 0645fbea8059aec47aa6ae9d2c93c1d4, type: 2}
 --- !u!1 &493218996
 GameObject:
   m_ObjectHideFlags: 0
@@ -4364,9 +5173,7 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 67213613519864048
-    - rid: 67213613519864107
-    - rid: 67213613519864112
-    - rid: 67213613519864114
+    - rid: 67213621421408870
   m_TriggerEvent:
     rid: 67213613519864042
   references:
@@ -4404,79 +5211,51 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: numpad 2
-    - rid: 67213613519864107
-      type: {class: InstructionCharacterStopState, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 67213621421408870
+      type: {class: InstructionCharacterGesture, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Character:
           m_Property:
-            rid: 67213613519864108
-        m_Layer:
+            rid: 67213621421408871
+        m_AnimationClip:
           m_Property:
-            rid: 67213613519864109
+            rid: 67213621421408872
+        m_AvatarMask: {fileID: 0}
+        m_BlendMode: 0
         m_Delay:
           m_Property:
-            rid: 67213613519864110
-        m_Transition:
+            rid: 67213621421408873
+        m_Speed:
           m_Property:
-            rid: 67213613519864111
-    - rid: 67213613519864108
+            rid: 67213621421408874
+        m_UseRootMotion: 0
+        m_TransitionIn:
+          m_Property:
+            rid: 67213621421408875
+        m_TransitionOut:
+          m_Property:
+            rid: 67213621421408876
+        m_WaitToComplete: 1
+    - rid: 67213621421408871
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 67213613519864109
-      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 67213621421408872
+      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 8
-    - rid: 67213613519864110
+        m_Value: {fileID: 7400000, guid: 78ec3bb0ff047514d87d2e1a5989905a, type: 2}
+    - rid: 67213621421408873
       type: {class: GetDecimalConstantZero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 67213613519864111
+    - rid: 67213621421408874
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213621421408875
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 0.10000000149011612
-    - rid: 67213613519864112
-      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Seconds:
-          m_Property:
-            rid: 67213613519864113
-        m_Mode:
-          m_UpdateTime: 0
-    - rid: 67213613519864113
-      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0.2
-    - rid: 67213613519864114
-      type: {class: InstructionCharacterStopState, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Character:
-          m_Property:
-            rid: 67213613519864115
-        m_Layer:
-          m_Property:
-            rid: 67213613519864116
-        m_Delay:
-          m_Property:
-            rid: 67213613519864117
-        m_Transition:
-          m_Property:
-            rid: 67213613519864118
-    - rid: 67213613519864115
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 67213613519864116
-      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 7
-    - rid: 67213613519864117
-      type: {class: GetDecimalConstantZero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 67213613519864118
+    - rid: 67213621421408876
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 0.10000000149011612
@@ -4491,6 +5270,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4711,6 +5494,10 @@ PrefabInstance:
       value: Floor_5x5
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4896,6 +5683,11 @@ MonoBehaviour:
     - rid: 4340017111633757039
       type: {class: SetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+--- !u!4 &565802927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4766441143952534854, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &589879689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4907,6 +5699,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5361,6 +6157,10 @@ PrefabInstance:
       value: Floor_5x5
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5789,6 +6589,10 @@ PrefabInstance:
       value: Floor_5x5_3
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5857,6 +6661,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6103,9 +6911,7 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 67213613519864048
-    - rid: 67213613519864097
-    - rid: 67213613519864101
-    - rid: 67213613519864103
+    - rid: 67213621421408863
   m_TriggerEvent:
     rid: 67213613519864042
   references:
@@ -6143,90 +6949,54 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: numpad 1
-    - rid: 67213613519864097
-      type: {class: InstructionCharacterEnterState, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 67213621421408863
+      type: {class: InstructionCharacterGesture, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
         m_Character:
           m_Property:
-            rid: 67213613519864098
-        m_State:
-          m_StateType: 2
-          m_AnimationClip:
-            m_Property:
-              rid: 67213613519864099
-          m_RuntimeController: {fileID: 0}
-          m_State: {fileID: 11400000, guid: ee063ccce796469479c22634f1ea3976, type: 2}
-          m_AvatarMask: {fileID: 0}
-        m_Layer:
+            rid: 67213621421408864
+        m_AnimationClip:
           m_Property:
-            rid: 67213613519864100
+            rid: 67213621421408865
+        m_AvatarMask: {fileID: 0}
         m_BlendMode: 0
-        m_Delay: 0
-        m_Speed: 1
-        m_Weight: 1
-        m_Transition: 0.1
-    - rid: 67213613519864098
+        m_Delay:
+          m_Property:
+            rid: 67213621421408866
+        m_Speed:
+          m_Property:
+            rid: 67213621421408867
+        m_UseRootMotion: 0
+        m_TransitionIn:
+          m_Property:
+            rid: 67213621421408868
+        m_TransitionOut:
+          m_Property:
+            rid: 67213621421408869
+        m_WaitToComplete: 1
+    - rid: 67213621421408864
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 67213613519864099
+    - rid: 67213621421408865
       type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: {fileID: 0}
-    - rid: 67213613519864100
-      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 7
-    - rid: 67213613519864101
-      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Seconds:
-          m_Property:
-            rid: 67213613519864102
-        m_Mode:
-          m_UpdateTime: 0
-    - rid: 67213613519864102
+        m_Value: {fileID: 7400000, guid: b09aef1b486b11f4fb305a8983fbedae, type: 2}
+    - rid: 67213621421408866
+      type: {class: GetDecimalConstantZero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213621421408867
+      type: {class: GetDecimalConstantOne, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213621421408868
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: 0.2
-    - rid: 67213613519864103
-      type: {class: InstructionCharacterEnterState, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+        m_Value: 0.10000000149011612
+    - rid: 67213621421408869
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_Character:
-          m_Property:
-            rid: 67213613519864104
-        m_State:
-          m_StateType: 2
-          m_AnimationClip:
-            m_Property:
-              rid: 67213613519864105
-          m_RuntimeController: {fileID: 0}
-          m_State: {fileID: 11400000, guid: 9111c8d89c271b140890813b12207db0, type: 2}
-          m_AvatarMask: {fileID: 0}
-        m_Layer:
-          m_Property:
-            rid: 67213613519864106
-        m_BlendMode: 0
-        m_Delay: 0
-        m_Speed: 1
-        m_Weight: 1
-        m_Transition: 0.1
-    - rid: 67213613519864104
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 67213613519864105
-      type: {class: GetAnimationInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: {fileID: 0}
-    - rid: 67213613519864106
-      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 8
+        m_Value: 0.10000000149011612
 --- !u!1001 &751719960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8397,6 +9167,106 @@ Transform:
   - {fileID: 297748253}
   m_Father: {fileID: 2103675397}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008457131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008457133}
+  - component: {fileID: 1008457132}
+  m_Layer: 0
+  m_Name: ShotCamera (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1008457132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008457131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55db089f35f4457a8ff1981374b2de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsMainShot: 0
+  m_TimeMode:
+    m_UpdateTime: 0
+  m_Clipping: 0
+  m_ShotType:
+    rid: 67213433831162729
+  references:
+    version: 2
+    RefIds:
+    - rid: 67213433831162729
+      type: {class: ShotTypeFollow, ns: GameCreator.Runtime.Cameras, asm: GameCreator.Runtime.Core}
+      data:
+        m_ShotSystemViewport:
+          m_Projection:
+            m_IsEnabled: 1
+            m_Value: 0
+          m_FieldOfView:
+            m_IsEnabled: 1
+            m_Value: 20
+          m_OrthographicSize:
+            m_IsEnabled: 0
+            m_Value: 5
+          m_ClipPlaneNear:
+            m_IsEnabled: 0
+            m_Value: 0.3
+          m_ClipPlaneFar:
+            m_IsEnabled: 0
+            m_Value: 1000
+        m_ShotSystemLook:
+          m_IsActive: 1
+          m_LookTarget:
+            m_Property:
+              rid: 67213433831162730
+          m_LookOffset:
+            m_Property:
+              rid: 67213433831162731
+        m_ShotSystemFollow:
+          m_Follow:
+            m_Property:
+              rid: 67213433831162732
+          m_Distance:
+            m_Property:
+              rid: 67213433831162733
+    - rid: 67213433831162730
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213433831162731
+      type: {class: GetDirectionVector3Zero, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213433831162732
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213433831162733
+      type: {class: GetDirectionVector, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Direction: {x: 24, y: 24, z: -24}
+--- !u!4 &1008457133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008457131}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020725266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9013,6 +9883,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10804,6 +11678,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4193679455884261387, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
   m_PrefabInstance: {fileID: 1391450884}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1394581039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 852957934446118060, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1398762650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11671,6 +12550,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 284262584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1504159987 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2523427897878314536, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1520223579
 GameObject:
   m_ObjectHideFlags: 0
@@ -12729,6 +13613,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1379340539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1729458814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2340702650985272689, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1734338905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13036,6 +13925,10 @@ PrefabInstance:
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_Name
       value: Floor_5x5_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3564917492724130481, guid: 182fc147398fa44388e62d350f86aed6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13464,10 +14357,8 @@ MonoBehaviour:
   m_InverseKinematics:
     m_RigLayers:
       m_Rigs:
-      - rid: 67213503939216038
       - rid: 4340017083595096420
-      - rid: 4340017083595096421
-      - rid: 4340017083595096422
+      - rid: 67213503939216038
   m_Footsteps:
     m_Feet:
     - rid: 4340017083595096423
@@ -13530,30 +14421,6 @@ MonoBehaviour:
         - m_Bone: 10
           m_Euler: {x: 0, y: 0, z: 0}
           m_Weight: 3
-    - rid: 4340017083595096421
-      type: {class: RigFeetPlant, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_FootOffset: 0
-        m_FootMask:
-          serializedVersion: 2
-          m_Bits: 4294967295
-        m_SmoothTime: 0.25
-    - rid: 4340017083595096422
-      type: {class: RigLean, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_InclineSpine: 5
-        m_InclineLowerChest: 10
-        m_InclineUpperChest: 5
-        m_DeclineSpine: -10
-        m_DeclineLowerChest: -5
-        m_DeclineUpperChest: 5
-        m_RollSpine: 5
-        m_RollLowerChest: 5
-        m_RollUpperChest: 10
     - rid: 4340017083595096423
       type: {class: Footstep, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
@@ -13781,6 +14648,8 @@ MonoBehaviour:
     - rid: 67213433831162852
     - rid: 67213503939215850
     - rid: 67213503939215851
+    - rid: 67213644048891929
+    - rid: 67213644048891932
   m_TriggerEvent:
     rid: 4340017111633757022
   references:
@@ -13790,7 +14659,7 @@ MonoBehaviour:
       type: {class: InstructionMeleeEquipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Character:
           m_Property:
             rid: 67213433831162853
@@ -13826,6 +14695,58 @@ MonoBehaviour:
         m_InputAsset:
           m_InputAsset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
           m_ActionMap: UI
+    - rid: 67213644048891929
+      type: {class: InstructionCharacterAttachProp, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 67213644048891930
+        m_Type: 0
+        m_Prop:
+          m_Property:
+            rid: 67213644048891931
+        m_Handle:
+          m_Type: 1
+          m_Bone:
+            m_Type: 1
+            m_Human: 18
+            m_Path: 
+          m_LocalPosition: {x: 0, y: 0, z: 0}
+          m_LocalRotation: {x: 0, y: 0, z: 0}
+          m_Handle: {fileID: 11400000, guid: 29306d59e6e68eb489077d47f924fb66, type: 2}
+    - rid: 67213644048891930
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213644048891931
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 1717776849250457813, guid: 91c03f334ff7347b7b402b65ad4161f0, type: 3}
+    - rid: 67213644048891932
+      type: {class: InstructionShooterEquipWeapon, ns: GameCreator.Runtime.Shooter, asm: GameCreator.Runtime.Shooter}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Character:
+          m_Property:
+            rid: 67213644048891933
+        m_Weapon:
+          m_Property:
+            rid: 67213644048891934
+        m_Model:
+          m_Property:
+            rid: 67213644048891935
+    - rid: 67213644048891933
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 67213644048891934
+      type: {class: GetWeaponShooterInstance, ns: GameCreator.Runtime.Shooter, asm: GameCreator.Runtime.Shooter}
+      data:
+        m_Weapon: {fileID: 11400000, guid: b9f01f16f5bd9c842bb431d85623307e, type: 2}
+    - rid: 67213644048891935
+      type: {class: GetGameObjectCharactersLastPropAttached, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
     - rid: 4340017111633757022
       type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data: 
@@ -13833,7 +14754,7 @@ MonoBehaviour:
       type: {class: InstructionMeleeEquipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 1
+        m_IsEnabled: 0
         m_Character:
           m_Property:
             rid: 4340017111633757024
@@ -14310,6 +15231,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6850921225140801634, guid: 567769a2d701d4dff8350f9c2b29b663, type: 3}
   m_PrefabInstance: {fileID: 1979042656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2002114856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2141383341092782193, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2010677094
 PrefabInstance:
@@ -15146,6 +16072,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6850921225140801634, guid: 567769a2d701d4dff8350f9c2b29b663, type: 3}
   m_PrefabInstance: {fileID: 2073084852}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2074059999 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8880775587542042451, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+  m_PrefabInstance: {fileID: 7509467706053701032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2076094854
 GameObject:
   m_ObjectHideFlags: 0
@@ -15890,7 +16821,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1083755908996549263, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 486542874}
   m_SourcePrefab: {fileID: 100100000, guid: c3559916515ead8498f665c8c9ca1823, type: 3}
 --- !u!114 &7834750964045834714
 MonoBehaviour:
@@ -15986,6 +16920,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 2137935064}
   - {fileID: 256346581}
+  - {fileID: 1008457133}
   - {fileID: 612981159}
   - {fileID: 1520223580}
   - {fileID: 7509467706053701032}
@@ -15996,3 +16931,4 @@ SceneRoots:
   - {fileID: 343713229}
   - {fileID: 150275602}
   - {fileID: 766001354}
+  - {fileID: 95941478}

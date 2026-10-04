@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e25e7ff5b3ce840cd941cc265f0dfce0, type: 3}
-  m_Name: Sword_Wood
+  m_Name: Sword_Durability
   m_EditorClassIdentifier: 
   m_ID:
     m_SerializedID:
-      m_String: rpg-sword_wood
+      m_String: 5c4ec496-5175-4816-a6df-03430ea068da
   m_Parent: {fileID: 11400000, guid: 877a3fb93dbc6624bae0132d4e61c40b, type: 2}
-  m_Prefab: {fileID: 0}
+  m_Prefab: {fileID: 786124467394612434, guid: 9a644dc244e238b4ca002f4a346afaf3, type: 3}
   m_CanDrop:
     m_IsEnabled: 1
     m_Value:
@@ -51,7 +51,31 @@ MonoBehaviour:
     m_CanSellToMerchant: 1
   m_Properties:
     m_InheritFromParent: 1
-    m_List: []
+    m_List:
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: durability
+      m_Visible: 0
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 100
+      m_Text:
+        m_Property:
+          rid: 2342229219199680728
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: maxdurability
+      m_Visible: 0
+      m_Hide: -1
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 100
+      m_Text:
+        m_Property:
+          rid: 2342229219199681155
     m_Overrides:
       m_Keys:
       - m_String: attack
@@ -98,12 +122,14 @@ MonoBehaviour:
         - rid: 804059879062896659
         - rid: 804060215840342837
         - rid: 804060215840342844
+        - rid: 2342229219199680829
     m_InstructionsOnUnequip:
       m_Instructions:
         m_Instructions:
         - rid: 804059879062896662
         - rid: 804060215840342848
         - rid: 804060215840342851
+        - rid: 2342229219199680838
     m_ExecuteFromParent: 0
   m_Usage:
     m_CanUse: 0
@@ -158,14 +184,14 @@ MonoBehaviour:
             m_Path: 
           m_LocalPosition: {x: 0, y: 0, z: 0}
           m_LocalRotation: {x: 0, y: 0, z: 0}
-          m_Handle: {fileID: 11400000, guid: 4be091cab9d7741f485051b24b145959, type: 2}
+          m_Handle: {fileID: 11400000, guid: bff495413366624458b6c5bdf33fedb1, type: 2}
     - rid: 804059879062896660
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 804059879062896661
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_GameObject: {fileID: 8577520562116956334, guid: 4d4457fe2e27c44a883edbfe1846f5dd, type: 3}
+        m_GameObject: {fileID: 5099940126912940064, guid: ae567433b7c9113468cebdaa3f92fba7, type: 3}
     - rid: 804059879062896662
       type: {class: InstructionCharacterRemoveProp, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
       data:
@@ -184,12 +210,12 @@ MonoBehaviour:
     - rid: 804059879062896664
       type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_GameObject: {fileID: 8577520562116956334, guid: 4d4457fe2e27c44a883edbfe1846f5dd, type: 3}
+        m_GameObject: {fileID: 5099940126912940064, guid: ae567433b7c9113468cebdaa3f92fba7, type: 3}
     - rid: 804060215840342837
       type: {class: InstructionMeleeEquipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 0
+        m_IsEnabled: 1
         m_Character:
           m_Property:
             rid: 804060215840342838
@@ -240,7 +266,7 @@ MonoBehaviour:
       type: {class: InstructionMeleeUnequipWeapon, ns: GameCreator.Runtime.Melee, asm: GameCreator.Runtime.Melee}
       data:
         m_Breakpoint: 0
-        m_IsEnabled: 0
+        m_IsEnabled: 1
         m_Character:
           m_Property:
             rid: 804060215840342849
@@ -281,10 +307,84 @@ MonoBehaviour:
       data:
         m_ItemProperty:
           m_String: attack
+    - rid: 2342229219199680728
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Durability
+    - rid: 2342229219199680829
+      type: {class: InstructionInventorySetRuntimeItem, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 2342229219199680833
+        m_RuntimeItem:
+          m_Property:
+            rid: 2342229219199681524
+    - rid: 2342229219199680833
+      type: {class: SetRuntimeItemLocalName, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: runtime-item
+          m_Variable:
+            rid: 2342229219199680834
+          m_Name:
+            m_String: current-weapon-equipped
+            m_ID: -1524906774
+    - rid: 2342229219199680834
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229219199680836
+    - rid: 2342229219199680836
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229219199680838
+      type: {class: InstructionInventorySetRuntimeItem, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Set:
+          m_Property:
+            rid: 2342229219199680842
+        m_RuntimeItem:
+          m_Property:
+            rid: 2342229219199680846
+    - rid: 2342229219199680842
+      type: {class: SetRuntimeItemLocalName, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_Variable:
+          m_TypeID:
+            m_String: runtime-item
+          m_Variable:
+            rid: 2342229219199680843
+          m_Name:
+            m_String: current-weapon-equipped
+            m_ID: -1524906774
+    - rid: 2342229219199680843
+      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Property:
+          rid: 2342229219199680845
+    - rid: 2342229219199680845
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229219199680846
+      type: {class: GetRuntimeItemNone, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data: 
+    - rid: 2342229219199681155
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: MaxDurability
+    - rid: 2342229219199681524
+      type: {class: GetRuntimeItemLastEquipped, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data: 
     - rid: 2531411309620625461
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Wooden Sword
+        m_Value: Wooden_durability
     - rid: 2531411309620625462
       type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
