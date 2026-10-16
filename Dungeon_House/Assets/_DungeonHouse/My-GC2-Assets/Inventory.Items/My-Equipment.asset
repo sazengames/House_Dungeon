@@ -28,30 +28,6 @@ MonoBehaviour:
         m_Handle: {fileID: 0}
     - m_Breakpoint: 0
       m_IsEnabled: 0
-      m_Base: {fileID: 11400000, guid: 877a3fb93dbc6624bae0132d4e61c40b, type: 2}
-      m_Handle:
-        m_Type: 0
-        m_Bone:
-          m_Type: 1
-          m_Human: 54
-          m_Path: 
-        m_LocalPosition: {x: 0.1, y: 0.35, z: -0.15}
-        m_LocalRotation: {x: -60, y: 85, z: -75}
-        m_Handle: {fileID: 0}
-    - m_Breakpoint: 0
-      m_IsEnabled: 0
-      m_Base: {fileID: 11400000, guid: a502648fbd368fc4aa03d81bd6357147, type: 2}
-      m_Handle:
-        m_Type: 0
-        m_Bone:
-          m_Type: 1
-          m_Human: 54
-          m_Path: 
-        m_LocalPosition: {x: -0.07, y: 0.06, z: -0.225}
-        m_LocalRotation: {x: -120, y: 260, z: -60}
-        m_Handle: {fileID: 0}
-    - m_Breakpoint: 0
-      m_IsEnabled: 0
       m_Base: {fileID: 11400000, guid: 8a5685b15f3cc1a4cad56d152de52bfa, type: 2}
       m_Handle:
         m_Type: 0
@@ -64,15 +40,15 @@ MonoBehaviour:
         m_Handle: {fileID: 0}
     - m_Breakpoint: 0
       m_IsEnabled: 0
-      m_Base: {fileID: 11400000, guid: e123828661adfc14898d7addfdd1c569, type: 2}
+      m_Base: {fileID: 11400000, guid: 877a3fb93dbc6624bae0132d4e61c40b, type: 2}
       m_Handle:
         m_Type: 0
         m_Bone:
           m_Type: 1
-          m_Human: 0
+          m_Human: 54
           m_Path: 
-        m_LocalPosition: {x: 0, y: 0, z: 0}
-        m_LocalRotation: {x: 0, y: 0, z: 0}
+        m_LocalPosition: {x: 0.1, y: 0.35, z: -0.15}
+        m_LocalRotation: {x: -60, y: 85, z: -75}
         m_Handle: {fileID: 0}
     - m_Breakpoint: 0
       m_IsEnabled: 0
@@ -100,7 +76,19 @@ MonoBehaviour:
         m_Handle: {fileID: 0}
     - m_Breakpoint: 0
       m_IsEnabled: 0
-      m_Base: {fileID: 11400000, guid: f2bbe5fc25d48ba409a347991fe2b080, type: 2}
+      m_Base: {fileID: 11400000, guid: e123828661adfc14898d7addfdd1c569, type: 2}
+      m_Handle:
+        m_Type: 0
+        m_Bone:
+          m_Type: 1
+          m_Human: 0
+          m_Path: 
+        m_LocalPosition: {x: 0, y: 0, z: 0}
+        m_LocalRotation: {x: 0, y: 0, z: 0}
+        m_Handle: {fileID: 0}
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_Base: {fileID: 11400000, guid: e123828661adfc14898d7addfdd1c569, type: 2}
       m_Handle:
         m_Type: 0
         m_Bone:

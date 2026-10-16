@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Aim:
     m_MinAccuracy:
       m_Property:
-        rid: 67213613519864792
+        rid: 2342229508103864533
     m_Aim:
       rid: 67213639407895389
   m_Biomechanics:
@@ -177,10 +177,6 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 4
-    - rid: 67213613519864792
-      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Value: 0
     - rid: 67213623230464315
       type: {class: BiomechanicsHumanDefault, ns: GameCreator.Runtime.Shooter, asm: GameCreator.Runtime.Shooter}
       data:
@@ -513,6 +509,22 @@ MonoBehaviour:
     - rid: 1903939077721817501
       type: {class: GetBoolTrue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
+    - rid: 2342229508103864533
+      type: {class: GetDecimalStatValue, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Traits:
+          m_Property:
+            rid: 2342229508103864534
+        m_Stat:
+          m_Property:
+            rid: 2342229508103864535
+    - rid: 2342229508103864534
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229508103864535
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: 417343745bcf23a4898ad7918eb6bbc1, type: 2}
     - rid: 8814677138683199746
       type: {class: GetBoolTrue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 
