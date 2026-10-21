@@ -11,15 +11,15 @@ TagManager:
   - 
   - Water
   - UI
+  - 
+  - 
+  - Obstacles
   - Ground
   - Player
-  - Obstacles
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ObstaclesDoors
+  - NoPathfinding
+  - Enemies
+  - NoCollisions
   - 
   - 
   - 

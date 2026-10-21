@@ -67,7 +67,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "LockOn",
+                    "name": "Aim",
                     "type": "Button",
                     "id": "2fe5bb41-06b6-4979-802a-28214a5efec3",
                     "expectedControlType": "",
@@ -90,7 +90,7 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "27c5f898-bc57-4ee1-8800-db469aca5fe3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false,
@@ -498,7 +498,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -509,7 +509,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -520,7 +520,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -531,7 +531,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -542,7 +542,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -553,7 +553,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "LockOn",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

@@ -42,8 +42,8 @@ MonoBehaviour:
     m_ExecuteFromParent: 0
   m_Shape:
     m_Width: 2
-    m_Height: 2
-    m_Weight: 5
+    m_Height: 1
+    m_Weight: 250
     m_MaxStack: 1
   m_Price:
     m_Currency: {fileID: 11400000, guid: 288c33ce79af2c644a1c5be78157d592, type: 2}
@@ -69,11 +69,15 @@ MonoBehaviour:
       - m_String: accuracy-kick
       - m_String: jam-chance
       - m_String: min-accuracy
+      - m_String: effective-range
+      - m_String: max-range
       - m_String: attack
       - m_String: defense
+      - m_String: durability
       - m_String: luck
       - m_String: criticalhit
       - m_String: criticaldamage
+      - m_String: max-durability
       m_Values:
       - m_Override: 1
         m_Number: 22
@@ -103,8 +107,16 @@ MonoBehaviour:
         m_Number: 0
       - m_Override: 1
         m_Number: 0
+      - m_Override: 1
+        m_Number: 10
+      - m_Override: 1
+        m_Number: 30
       - m_Override: 0
         m_Number: 10
+      - m_Override: 0
+        m_Number: 0
+      - m_Override: 0
+        m_Number: 0
       - m_Override: 0
         m_Number: 0
       - m_Override: 0
@@ -142,6 +154,8 @@ MonoBehaviour:
         - rid: 2342229508103865128
         - rid: 2342229508103865136
         - rid: 2342229508103865144
+        - rid: 2342229578931765380
+        - rid: 2342229578931765384
         - rid: 2342229529576866153
     m_InstructionsOnUnequip:
       m_Instructions:
@@ -163,9 +177,11 @@ MonoBehaviour:
         - rid: 2342229508103865132
         - rid: 2342229508103865140
         - rid: 2342229508103865148
+        - rid: 2342229578931765388
+        - rid: 2342229578931765392
     m_ExecuteFromParent: 0
   m_Usage:
-    m_CanUse: 1
+    m_CanUse: 0
     m_ConsumeWhenUse: 0
     m_Cooldown:
       m_Property:
@@ -1111,6 +1127,114 @@ MonoBehaviour:
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 5
+    - rid: 2342229578931765380
+      type: {class: InstructionStatsAddModifier, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 2342229578931765381
+        m_Stat:
+          m_Property:
+            rid: 2342229578931765382
+        m_Type: 0
+        m_Value:
+          m_Property:
+            rid: 2342229578931765383
+    - rid: 2342229578931765381
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229578931765382
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: 1c055a8d62ded9344b5211f7acd5fdfb, type: 2}
+    - rid: 2342229578931765383
+      type: {class: GetDecimalInventoryLastItemEquipProperty, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_ItemProperty:
+          m_String: effective-range
+    - rid: 2342229578931765384
+      type: {class: InstructionStatsAddModifier, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 2342229578931765385
+        m_Stat:
+          m_Property:
+            rid: 2342229578931765386
+        m_Type: 0
+        m_Value:
+          m_Property:
+            rid: 2342229578931765387
+    - rid: 2342229578931765385
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229578931765386
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: ad5afb040ca44524ab2b90e7c3070ce4, type: 2}
+    - rid: 2342229578931765387
+      type: {class: GetDecimalInventoryLastItemEquipProperty, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_ItemProperty:
+          m_String: max-range
+    - rid: 2342229578931765388
+      type: {class: InstructionStatsRemoveModifier, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 2342229578931765389
+        m_Stat:
+          m_Property:
+            rid: 2342229578931765390
+        m_Type: 0
+        m_Value:
+          m_Property:
+            rid: 2342229578931765391
+    - rid: 2342229578931765389
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229578931765390
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: 1c055a8d62ded9344b5211f7acd5fdfb, type: 2}
+    - rid: 2342229578931765391
+      type: {class: GetDecimalInventoryLastItemEquipProperty, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_ItemProperty:
+          m_String: effective-range
+    - rid: 2342229578931765392
+      type: {class: InstructionStatsRemoveModifier, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Target:
+          m_Property:
+            rid: 2342229578931765393
+        m_Stat:
+          m_Property:
+            rid: 2342229578931765394
+        m_Type: 0
+        m_Value:
+          m_Property:
+            rid: 2342229578931765395
+    - rid: 2342229578931765393
+      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 2342229578931765394
+      type: {class: GetStatInstance, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
+      data:
+        m_Stat: {fileID: 11400000, guid: ad5afb040ca44524ab2b90e7c3070ce4, type: 2}
+    - rid: 2342229578931765395
+      type: {class: GetDecimalInventoryLastItemEquipProperty, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      data:
+        m_ItemProperty:
+          m_String: max-range
     - rid: 2531411309620625461
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
@@ -1123,7 +1247,7 @@ MonoBehaviour:
     - rid: 2531411309620625463
       type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Sprite: {fileID: 21300000, guid: 627e3af8a09474aed9925cb0b7e12bec, type: 3}
+        m_Sprite: {fileID: 21300000, guid: ca46d6a76986846178aac6cad23e5957, type: 3}
     - rid: 2531411309620625469
       type: {class: GetColorValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:

@@ -36,7 +36,7 @@ MonoBehaviour:
   ShowParentingButtons: 0
   AutoRefreshModelsWithModifiedPivots: 0
   ChangeMeshColliderGeometry: 0
-  WindowPosition: {x: 499, y: 342}
+  WindowPosition: {x: 480, y: 65}
   GizmoOpacity: 1
   GizmoColorA: {r: 1, g: 0, b: 0, a: 1}
   GizmoColorB: {r: 1, g: 1, b: 1, a: 1}

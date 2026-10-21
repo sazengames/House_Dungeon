@@ -220,14 +220,44 @@ MonoBehaviour:
       m_Text:
         m_Property:
           rid: 2342229505474560036
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: effective-range
+      m_Visible: 2
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 2342229578931765352
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: max-range
+      m_Visible: 2
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 2342229578931765353
     m_Overrides:
       m_Keys:
       - m_String: attack
       - m_String: defense
+      - m_String: durability
       - m_String: luck
       - m_String: criticalhit
       - m_String: criticaldamage
+      - m_String: max-durability
       m_Values:
+      - m_Override: 0
+        m_Number: 0
+      - m_Override: 0
+        m_Number: 0
       - m_Override: 0
         m_Number: 0
       - m_Override: 0
@@ -365,3 +395,11 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: Min Accuracy
+    - rid: 2342229578931765352
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 
+    - rid: 2342229578931765353
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 

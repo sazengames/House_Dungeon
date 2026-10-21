@@ -28,12 +28,24 @@ MonoBehaviour:
         m_Handle: {fileID: 0}
     - m_Breakpoint: 0
       m_IsEnabled: 0
+      m_Base: {fileID: 11400000, guid: ef668c0319cf8054c883ad8550af8522, type: 2}
+      m_Handle:
+        m_Type: 0
+        m_Bone:
+          m_Type: 1
+          m_Human: 10
+          m_Path: 
+        m_LocalPosition: {x: 0, y: 0, z: 0}
+        m_LocalRotation: {x: 0, y: 0, z: 0}
+        m_Handle: {fileID: 0}
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
       m_Base: {fileID: 11400000, guid: 8a5685b15f3cc1a4cad56d152de52bfa, type: 2}
       m_Handle:
         m_Type: 0
         m_Bone:
           m_Type: 1
-          m_Human: 0
+          m_Human: 8
           m_Path: 
         m_LocalPosition: {x: 0, y: 0, z: 0}
         m_LocalRotation: {x: 0, y: 0, z: 0}
@@ -45,7 +57,7 @@ MonoBehaviour:
         m_Type: 0
         m_Bone:
           m_Type: 1
-          m_Human: 54
+          m_Human: 18
           m_Path: 
         m_LocalPosition: {x: 0.1, y: 0.35, z: -0.15}
         m_LocalRotation: {x: -60, y: 85, z: -75}

@@ -15,8 +15,8 @@ MonoBehaviour:
   m_ID:
     m_SerializedID:
       m_String: dc5ea090-14ed-4020-afe5-f8f925a5b8a9
-  m_Parent: {fileID: 11400000, guid: e123828661adfc14898d7addfdd1c569, type: 2}
-  m_Prefab: {fileID: 0}
+  m_Parent: {fileID: 11400000, guid: f956f11b2734d97488ec1af0460526da, type: 2}
+  m_Prefab: {fileID: 786124467394612434, guid: 9a644dc244e238b4ca002f4a346afaf3, type: 3}
   m_CanDrop:
     m_IsEnabled: 1
     m_Value:
@@ -121,11 +121,11 @@ MonoBehaviour:
       type: {class: GetStringTextArea, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Text:
-          m_Text: Restores a certain amount of mana
+          m_Text: test ammo for test gun
     - rid: 2531411309620625442
       type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Sprite: {fileID: 21300000, guid: 5f8c0286b2b55479999d45fd436c0a51, type: 3}
+        m_Sprite: {fileID: 21300000, guid: b38ec02ee0c204c1a8186948b91a60f0, type: 3}
     - rid: 2531411309620625443
       type: {class: GetColorColorsWhite, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data: 

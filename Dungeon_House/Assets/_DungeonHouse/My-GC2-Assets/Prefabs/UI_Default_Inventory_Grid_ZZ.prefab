@@ -234,8 +234,8 @@ MonoBehaviour:
     m_Property:
       rid: 2531411172990648872
   m_EquipmentIndex:
-    m_Equipment: {fileID: 11400000, guid: a6fa2a187d5b64ca8a5ec0912715dfec, type: 2}
-    m_Index: 3
+    m_Equipment: {fileID: 11400000, guid: 12eb1db26c49b7441aaca1ad52b40957, type: 2}
+    m_Index: 1
   m_BaseUI:
     m_Name:
       m_Type: 0
@@ -2449,7 +2449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5598264155873480523
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2464,10 +2464,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 386332845220688278}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 230, y: 0}
+  m_SizeDelta: {x: 460, y: 38.70968}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2943825616087482399
 CanvasRenderer:
@@ -2650,8 +2650,8 @@ MonoBehaviour:
     m_Property:
       rid: 2531411172990648872
   m_EquipmentIndex:
-    m_Equipment: {fileID: 11400000, guid: a6fa2a187d5b64ca8a5ec0912715dfec, type: 2}
-    m_Index: 1
+    m_Equipment: {fileID: 11400000, guid: 12eb1db26c49b7441aaca1ad52b40957, type: 2}
+    m_Index: 2
   m_BaseUI:
     m_Name:
       m_Type: 0
@@ -3276,7 +3276,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 247
+    m_Bits: 55
 --- !u!114 &5659093806008786678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3292,7 +3292,7 @@ MonoBehaviour:
   m_DefaultBag:
     m_Property:
       rid: 4340016698362953879
-  m_PrefabCell: {fileID: 7427359816449157777, guid: b30776085d7a556448961e216af5354b, type: 3}
+  m_PrefabCell: {fileID: 7427359816449157777, guid: d7e49aa895127f04e9498dfd4b6574b9, type: 3}
   m_CanDropOutside: 0
   m_MaxDropDistance: 1
   m_Content: {fileID: 7091241681942219469}
@@ -6356,7 +6356,7 @@ MonoBehaviour:
     m_Property:
       rid: 2531411172990648872
   m_EquipmentIndex:
-    m_Equipment: {fileID: 11400000, guid: a6fa2a187d5b64ca8a5ec0912715dfec, type: 2}
+    m_Equipment: {fileID: 11400000, guid: 12eb1db26c49b7441aaca1ad52b40957, type: 2}
     m_Index: 0
   m_BaseUI:
     m_Name:
@@ -8901,7 +8901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4895512348022443147
 RectTransform:
   m_ObjectHideFlags: 0
