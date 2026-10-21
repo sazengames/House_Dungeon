@@ -24,7 +24,6 @@
 /[Mm]emoryCaptures/
 /[Aa]ssets/[Tt]hirdParty/
 /[Aa]ssets/[Hh]ovl Studio/
-/[Aa]ssets/[Pp]lugins/
 /[Aa]ssets/[Ss]amples/
 /[Aa]ssets/[Tt]ripolygon/
 /[Aa]ssets/[Uu]MotionEditor
@@ -124,3 +123,10 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Plugins: ignore everything except Game Creator .cs scripts
+/[Aa]ssets/[Pp]lugins/*
+!/[Aa]ssets/[Pp]lugins/GameCreator/
+/[Aa]ssets/[Pp]lugins/GameCreator/**
+!/[Aa]ssets/[Pp]lugins/GameCreator/**/
+!/[Aa]ssets/[Pp]lugins/GameCreator/**/*.cs
