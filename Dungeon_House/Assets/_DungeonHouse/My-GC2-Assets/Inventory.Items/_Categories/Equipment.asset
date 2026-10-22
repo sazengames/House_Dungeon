@@ -83,7 +83,7 @@ MonoBehaviour:
       m_Visible: 0
       m_Hide: 0
       m_Icon: {fileID: 21300000, guid: b88ed8178654b422ab9a2bdd25460e95, type: 3}
-      m_Color: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+      m_Color: {r: 1, g: 0.7058824, b: 0.25, a: 1}
       m_Number: 100
       m_Text:
         m_Property:

@@ -17,7 +17,7 @@ namespace GameCreator.Runtime.Inventory.UnityUI
         ISelectHandler
     {
         private static readonly CultureInfo CULTURE = CultureInfo.InvariantCulture;
-        private const string FORMAT = "+#;-#;0";
+        private const string FORMAT = "0.##;0.##;0";
         
         private const int HIDE_NUMBER = (int) Property.HideElement.Number;
         private const int HIDE_TEXT = (int) Property.HideElement.Text;

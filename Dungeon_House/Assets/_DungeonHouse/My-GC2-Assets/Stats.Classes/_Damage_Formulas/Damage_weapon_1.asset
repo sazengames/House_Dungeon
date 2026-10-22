@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62eacd27a028494b8f6aee98d9f2be13, type: 3}
-  m_Name: Damage_weapon_1
+  m_Name: Damage_Weapon_1
   m_EditorClassIdentifier: 
   m_Formula: 'round[source.var[final-damage] * ((100 / (100 + target.stat[defense]))) ]'
   m_Table: {fileID: 0}

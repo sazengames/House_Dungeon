@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62eacd27a028494b8f6aee98d9f2be13, type: 3}
-  m_Name: Damage_Physical_5
+  m_Script: {fileID: 11500000, guid: cb24a42045e147efafe741266ca0d4a5, type: 3}
+  m_Name: Loot_List
   m_EditorClassIdentifier: 
-  m_Formula: 'round[source.stat[attack] * ((100 / (100 + target.stat[defense])) *
-    random[.9,1.1]) * 1.4]'
-  m_Table: {fileID: 0}
+  m_Value: {fileID: 2518283033010277714, guid: 56cfde5c1057be345b9152932e193f95, type: 3}
