@@ -53,8 +53,11 @@ MonoBehaviour:
     m_InheritFromParent: 1
     m_List: []
     m_Overrides:
-      m_Keys: []
-      m_Values: []
+      m_Keys:
+      - m_String: search-time
+      m_Values:
+      - m_Override: 1
+        m_Number: 3
   m_Sockets:
     m_InheritFromParent: 1
     m_List: []

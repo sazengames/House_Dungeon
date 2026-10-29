@@ -91,7 +91,7 @@ namespace GameCreator.Runtime.Inventory.UnityUI
             this.m_Width.Text = itemShape?.Width.ToString() ?? string.Empty;
             this.m_Height.Text = itemShape?.Height.ToString() ?? string.Empty;
             //this.m_Weight.Text = itemShape?.Weight.ToString() ?? string.Empty;
-            this.m_Weight.Text = itemShape != null ? WeightFormat.Tolb(itemShape.Weight) : string.Empty;
+            this.m_Weight.Text = itemShape != null ? WeightFormat.ToKg(itemShape.Weight) : string.Empty;
 
             int stackCount = 1;
             if (bag != null && runtimeItem != null && bag.Content.Contains(runtimeItem))
@@ -102,7 +102,7 @@ namespace GameCreator.Runtime.Inventory.UnityUI
             }
 
             this.m_WeightTotal.Text = itemShape != null && stackCount > 1
-            ? "/  " + WeightFormat.Tolb(itemShape.Weight * stackCount)
+            ? "/  " + WeightFormat.ToKg(itemShape.Weight * stackCount)
             : string.Empty;
 
             if (this.m_Price != null) this.m_Price.RefreshUI(runtimeItem);

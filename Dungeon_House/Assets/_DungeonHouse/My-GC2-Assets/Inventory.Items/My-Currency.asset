@@ -39,12 +39,12 @@ MonoBehaviour:
     - rid: 2531411307151229199
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: Gold
+        m_Value: Bucks
     - rid: 2531411307151229200
       type: {class: GetSpriteInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Sprite: {fileID: 21300000, guid: a8ee42d55893f437eacfd556ee6131c2, type: 3}
+        m_Sprite: {fileID: 21300000, guid: ac17033afc60a49e9ade6a165bc714f0, type: 3}
     - rid: 2531411307151229201
       type: {class: GetColorValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Value: {r: 0.98039216, g: 0.79607844, b: 0.27058825, a: 1}
+        m_Value: {r: 0.05676597, g: 0.7830189, b: 0, a: 1}

@@ -50,11 +50,14 @@ MonoBehaviour:
     m_CanBuyFromMerchant: 1
     m_CanSellToMerchant: 1
   m_Properties:
-    m_InheritFromParent: 0
+    m_InheritFromParent: 1
     m_List: []
     m_Overrides:
-      m_Keys: []
-      m_Values: []
+      m_Keys:
+      - m_String: search-time
+      m_Values:
+      - m_Override: 0
+        m_Number: 0
   m_Sockets:
     m_InheritFromParent: 1
     m_List: []

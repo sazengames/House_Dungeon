@@ -244,6 +244,18 @@ MonoBehaviour:
       m_Text:
         m_Property:
           rid: 2342229578931765353
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: penetration
+      m_Visible: 2
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 0
+      m_Text:
+        m_Property:
+          rid: 2342229661384966473
     m_Overrides:
       m_Keys:
       - m_String: attack
@@ -403,3 +415,7 @@ MonoBehaviour:
       type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 
+    - rid: 2342229661384966473
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Penetration

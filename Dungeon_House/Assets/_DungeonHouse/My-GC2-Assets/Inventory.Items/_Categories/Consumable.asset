@@ -51,7 +51,31 @@ MonoBehaviour:
     m_CanSellToMerchant: 1
   m_Properties:
     m_InheritFromParent: 0
-    m_List: []
+    m_List:
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: search-time
+      m_Visible: 2
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 1
+      m_Text:
+        m_Property:
+          rid: 2342229796773429642
+    - m_Breakpoint: 0
+      m_IsEnabled: 0
+      m_PropertyID:
+        m_String: rarity
+      m_Visible: 2
+      m_Hide: 0
+      m_Icon: {fileID: 0}
+      m_Color: {r: 0, g: 0, b: 0, a: 0}
+      m_Number: 1
+      m_Text:
+        m_Property:
+          rid: 2342229800286159104
     m_Overrides:
       m_Keys: []
       m_Values: []
@@ -88,6 +112,7 @@ MonoBehaviour:
   m_Crafting:
     m_Ingredients: []
     m_CanCraft: 0
+    m_CanCombine: 0
     m_ConditionsCraft:
       m_Conditions:
         m_Conditions: []
@@ -125,3 +150,11 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 0
+    - rid: 2342229796773429642
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Search-time
+    - rid: 2342229800286159104
+      type: {class: GetStringString, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: Rarity
