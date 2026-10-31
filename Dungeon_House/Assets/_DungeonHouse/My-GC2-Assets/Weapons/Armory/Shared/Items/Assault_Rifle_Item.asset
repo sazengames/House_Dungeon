@@ -81,11 +81,12 @@ MonoBehaviour:
       - m_String: max-durability
       - m_String: search-time
       - m_String: rarity
+      - m_String: wear
       m_Values:
       - m_Override: 1
         m_Number: 12
       - m_Override: 1
-        m_Number: 200
+        m_Number: 10
       - m_Override: 1
         m_Number: 37
       - m_Override: 1
@@ -115,9 +116,11 @@ MonoBehaviour:
       - m_Override: 1
         m_Number: 10
       - m_Override: 1
-        m_Number: 1
+        m_Number: 0
       - m_Override: 0
         m_Number: 10
+      - m_Override: 0
+        m_Number: 0
       - m_Override: 0
         m_Number: 0
       - m_Override: 0
@@ -150,10 +153,9 @@ MonoBehaviour:
         - rid: 804059879062896659
         - rid: 2342229505474560306
         - rid: 2342229529576866149
+        - rid: 2342229827005972990
         - rid: 2342229576527642987
         - rid: 2342229663553159563
-        - rid: 2342229795237266415
-        - rid: 2342229795237266427
     m_InstructionsOnUnequip:
       m_Instructions:
         m_Instructions:
@@ -560,102 +562,31 @@ MonoBehaviour:
     - rid: 2342229663553159568
       type: {class: GetRuntimeItemLastUnequipped, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
       data: 
-    - rid: 2342229795237266415
-      type: {class: InstructionGameObjectSetGameObject, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 0
-        m_Set:
-          m_Property:
-            rid: 2342229795237266418
-        m_From:
-          m_Property:
-            rid: 2342229795237266423
-    - rid: 2342229795237266418
-      type: {class: SetGameObjectLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Variable:
-            rid: 2342229795237266419
-          m_Name:
-            m_String: current-weapon-left-hand-pos
-            m_ID: -884984852
-    - rid: 2342229795237266419
-      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Property:
-          rid: 2342229795237266421
-    - rid: 2342229795237266421
-      type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 2342229795237266423
-      type: {class: GetGameObjectLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Variable:
-            rid: 2342229795237266424
-          m_Name:
-            m_String: left-hand
-            m_ID: -2080929553
-    - rid: 2342229795237266424
-      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Property:
-          rid: 2342229795237266426
-    - rid: 2342229795237266426
-      type: {class: GetGameObjectCharactersLastPropAttachedPrefab, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 2342229795237266427
-      type: {class: InstructionGameObjectSetGameObject, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+    - rid: 2342229827005972990
+      type: {class: InstructionShooterAttachMagazine, ns: , asm: Assembly-CSharp}
       data:
         m_Breakpoint: 0
         m_IsEnabled: 1
-        m_Set:
+        m_Character:
           m_Property:
-            rid: 2342229795237266428
-        m_From:
+            rid: 2342229827005972991
+        m_MagazinePrefab:
           m_Property:
-            rid: 2342229795237266429
-    - rid: 2342229795237266428
-      type: {class: SetGameObjectLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Variable:
-            rid: 2342229795237266430
-          m_Name:
-            m_String: current-weapon-left-hand-pos
-            m_ID: -884984852
-    - rid: 2342229795237266429
-      type: {class: GetGameObjectLocalName, ns: GameCreator.Runtime.Variables, asm: GameCreator.Runtime.Core}
-      data:
-        m_Variable:
-          m_TypeID:
-            m_String: game-object
-          m_Variable:
-            rid: 2342229795237266431
-          m_Name:
-            m_String: left-hand
-            m_ID: -2080929553
-    - rid: 2342229795237266430
-      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Property:
-          rid: 2342229796773429248
-    - rid: 2342229795237266431
-      type: {class: PropertyGetGameObject, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data:
-        m_Property:
-          rid: 2342229796773429250
-    - rid: 2342229796773429248
+            rid: 2342229827005972992
+        m_AttachTo:
+          m_Property:
+            rid: 2342229827005973018
+        m_LocalPosition: {x: 0, y: 0, z: 0.16}
+        m_LocalRotation: {x: 0, y: 0, z: 0}
+        m_OnlyIfLoaded: 0
+    - rid: 2342229827005972991
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 2342229796773429250
+    - rid: 2342229827005972992
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 6449117804883744680, guid: c2494a58e6dea01448597bb4c6ac92bb, type: 3}
+    - rid: 2342229827005973018
       type: {class: GetGameObjectCharactersLastPropAttached, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
     - rid: 2531411309620625461

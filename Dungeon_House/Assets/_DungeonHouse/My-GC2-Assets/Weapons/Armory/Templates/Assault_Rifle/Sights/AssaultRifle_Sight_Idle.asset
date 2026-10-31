@@ -117,7 +117,7 @@ MonoBehaviour:
     m_TextureMode: 0
     m_TextureAlign: 0
   m_ReloadingUsesFK: 0
-  m_ReloadingUsesIK: 0
+  m_ReloadingUsesIK: 1
   m_ShootingUsesFK: 0
   m_ShootingUsesIK: 0
   m_FixingUsesFK: 0
